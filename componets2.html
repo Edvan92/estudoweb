@@ -3,64 +3,67 @@
 <head>
     <title>Componetes</title>
 
-    <link href="public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="publicpj/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 
-<body style="background-image: url(body-background.png);">
-    
-    <div class="container-fluid"> 
-        <header>  
-            <div class="container-md" style=" padding:  20PX">
-                <form>
-                    <div class="row">
+<body class="container-fluid">
 
-                        <div class="col">
-                            <div class="form">
-                                <input type="search" class="form-control  form-control-lg" placeholder="Pesquisar">
-                            </div>
+    <header class="">
+        <div class="bg bg-secondary" style="border-radius: 10px;" > 
+            <img src="img/logo-rodape.png" style="padding: 20px;">
+            
+            <di style="text-align: right; padding: 10px 0 0 0; float: right; margin-right: 5px;">
+                <button  class="btn btn-primary">Sobre</button>
+                <button  class="btn btn-primary">Suporte</button>
+                <button  class="btn btn-primary">follow</button>
+            </div>
+        </div>
+        <div class="bg bg-primary" style=" padding:  50PX; border-radius: 10px;">
+            <form>
+                <div class="row" >
+                    <div class="col" >
+                        <div class="form">
+                            <input type="search" class="form-control  form-control-lg" placeholder="Pesquisar">
                         </div>
                     </div>
-                </form>
-                <div style="text-align: right; padding: 10px;">
-                    <a href="https://www.facebook.com/edvan.bahia/"   style="padding: 5px;"><img src="facebook.png"></a>
-                    <a href="#" style="padding: 5px;"><img src="googleplus.png"></a>
-                    <a href="#" style="padding: 5px;"><img src="twitter.png"></a>
                 </div>
-                <div style="text-align: right; padding: 10px 0 0 0;">
-                    <button  class="btn btn-primary">Sobre.</button>
-                    <button  class="btn btn-primary">Suporte</button>
-                    <button  class="btn btn-primary">Carrinho</button>
-                </div>
-            </div> 
-        </header>
-
-        <div class="jumbotron jumbotron" style="box-shadow: dodgerblue; margin-inline: 30px 0 0 0;">
-            <div class="container-fluid" >
-                <h1 class="display-2" style=" font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Mercado Online</h1>
+            </form>
+            <div style="text-align: right; padding: 10px;">
+                <a href="https://www.facebook.com/edvan.bahia/"   style="padding: 5px;"><img src="img/facebook.png"></a>
+                <a href="#" style="padding: 5px;"><img src="img/googleplus.png"></a>
+                <a href="#" style="padding: 5px;"><img src="img/twitter.png"></a>
+            </div>
+            
+        </div> 
+    </header>
+    <div  class="container-fluid"  style="background-image: url(img/body-background.png); border-radius: 10px;">
+        <div class="jumbotron jumbotron">
+            <div>
                 <p class="lead">My frist jumbotron project</p>
                 <a href="facebook.com" class="btn btn-info btn-sm" style="margin-bottom: auto;">Saiba mais</a>
             </div>
-          
-            <div style="background-color:  bisque;width:200px;">
-                <nav style="color: aquamarine; margin-top: 10px; margin: 20px 0 0 0; padding:20px 0 0 0 ;font-family: sans-serif;">
-                    <ul>
-                        <li style="padding: 10px;"><a href="#" s>Destaque</a></li>
-                        <li style="padding: 10px;"><a href="#">Mais Vendidos</a></li>
-                        <li style="padding: 10px;"><a href="#">Moda Estações</a></li>
-                        <li style="padding: 10px;"><a href="#">Promocões</a></li>
-                        <li style="padding: 10px;"><a href="#">Modelos</a></li>   
-                    </ul>
-                </nav>
-            </div>
-            <div style="width: 100px; height:100px; background-color: chartreuse; text-align: center    ;">
-              
+            
+            <div style= "width:200px;">
+                <nav style=" margin-top: 10px; margin: 20px 0 0 0; padding:20px 0 0 0 ;font-family: sans-serif;">
+                        <ul">
+                            <button class="btn btn-info btn-md"  style="padding: 10px; margin: 5px;"><li><a href="#" s>Destaque</a></li></button>
+                            <button class="btn btn-info btn-md"  style="padding: 10px; margin: 5px;"><li style="padding: 10px;"><a href="#">Mais Vendidos</a></li></button>
+                            <button class="btn btn-info btn-md"  style="padding: 10px; margin: 5px;"><li style="padding: 10px;"><a href="#">Moda Estações</a></li></button>
+                            <butto class="btn btn-info btn-md"  style="padding: 10px; margin: 5px;"><li style="padding: 10px; margin: 5PX;"><a href="#">Promocões</a></li></button>   
+                        </ul>
+               </nav>
+               <div style="float: left; ">
+                <img src=" ">
             </div> 
+            <div> 
+            </div>
+            
             
         </div>
-       
         
-        <div class="container-fluid" style="margin: 100px;; width: auto; height: auto; ">
+        
+        <div class="container-fluid" style="margin: 100px;; width: auto; height: auto;clear: both; ">
             <div class="row">
                 <div class="col-2" style="margin: 5px;">
                     <div class="bg-body border border-2"> 
@@ -180,29 +183,17 @@
                             </a>   
                         </div>  
                     </div>
-                </div>
-
-                <div class="col-2" style="margin: 5px;">
-                    <div class="bg-body border border-2"> 
-                        <img src="produtos/foto2-azul.png" class="card-img-top">
-                        <div class="card-body" > 
-                            <h5 class="card-title">Meu card 11</h5>
-                            <p class="card-text">Aqui ficara a legenda do meu card</p>       
-                            <a href="#" class="btn btn-success">Saiba mais
-                            </a>   
-                        </div>  
-                    </div>
-                </div>     
+                </div>   
             </div> 
         </div>
-    </div>    
-    <footer>
-        <div class="conteiner" style="background-image: url(fundo-rodape.png); border-radius: 5px; padding: 5px;">
-        <p style="text-align: center; color: floralwhite;">Desenvolvido por Edivan</p>
-        </div>
-        <script src="public/js/jquery.js"></script>
-        <script src="public/js/bootstrap.bundle.min.js"></script>
-    </footer>
-
+     
+        <footer>
+            <div class="conteiner" style="background-image: url(img/fundo-rodape.png); border-radius: 5px; padding: 5px; width: auto;">
+            <p style="text-align: center; color: floralwhite;">Desenvolvido por Edivan</p>
+            </div>
+            <script src="public/js/jquery.js"></script>
+            <script src="public/js/bootstrap.bundle.min.js"></script>
+        </footer>
+    </div> 
 </body>
 </html>
