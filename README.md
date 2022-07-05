@@ -1,5 +1,4 @@
 # estudodevweb
  Desenvolvimento web
- Atualmente, estudando desenvolvimento web com foco em desenvolvimento back-end
- ainda estou na busaca do meu primeiro emprego ou estágio como programador.
+ Projeto ecommercer básico para treinameto de frontend, onde se utiliza html, css, bootstrap e javascript.   
  
